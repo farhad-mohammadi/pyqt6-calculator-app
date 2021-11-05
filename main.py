@@ -44,7 +44,8 @@ class MainWindow(QWidget):
         self.equal = False
         self.setLayout(grid)
         self.setWindowTitle('Calculator')
-        self.resize(100, 300)
+        self.resize(240, 240)
+        self.setFixedSize(self.size())
         self.show()
 
     def calc(self):
